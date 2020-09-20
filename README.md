@@ -1,7 +1,5 @@
-// function to generate markdown for README
-function generateMarkdown(response) {
-  return `
-# ${response.title}
+
+# f
 
 ## Table of Contents
 
@@ -17,41 +15,37 @@ function generateMarkdown(response) {
 
 
 ## Description:
-![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
-${response.description}
+![License](https://img.shields.io/badge/License-Mit License-blue.svg "License Badge")
+g
 
 ## Installation:
 
-${response.installation}
+undefined
 
 ## Usage:
-${response.usage}
+g
 
 ## Link:
-${response.link}
+s
 
 ## Contributors
-${response.contributors}
+f
 
 ## Languages:
-${response.languages}
+Javascript
 
 ## License:
   To learn more about the License, click on the link below.
 
--[License](https://opensource.org/licenses/${response.license})
+-[License](https://opensource.org/licenses/Mit License)
 
 ## Questions:
   For questions about the generator or to see other applications
   I have contributed to, please go to my Github page at the
   link:
 
--[GitHub Profile](https:/github.com/${response.username})
+-[GitHub Profile](https:/github.com/sdvs)
 
 For additional questions please contact me at my email at:
 
-${response.email}
-`;
-}
-
-module.exports = generateMarkdown;
+@

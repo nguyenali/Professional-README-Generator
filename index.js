@@ -58,7 +58,20 @@ const questions = [
                 'No License'
             ]
            
-        }
+        },
+        {
+            type:'input',
+            name:'username',
+            message:'Please enter your github username'
+          
+        },
+        {
+            type:'input',
+            name:'email',
+            message:'Please enter your email'
+          
+        },
+
     ]
 
 
