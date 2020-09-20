@@ -78,10 +78,10 @@ function writetoFile(fileName, response) {
 
 // function to initialize program
 function init() {
-   prompt(Questions).then((response)=>{
+   inquirer.prompt(questions).then((response)=>{
     
-    //const response = generatemarkdown(response);
-    console.log(response);
+    const response = generatemarkdown(response);
+   
 
     writetoFile("README.md", response);
    })
