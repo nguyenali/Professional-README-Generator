@@ -80,7 +80,7 @@ function writetoFile(fileName, response) {
 function init() {
    prompt(Questions).then((response)=>{
     
-    const response = generatemarkdown(response);
+    //const response = generatemarkdown(response);
     console.log(response);
 
     writetoFile("README.md", response);
