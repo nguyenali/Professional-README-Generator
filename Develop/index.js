@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 
 // array of questions for user
-const promptQuestions = () => {
+const promptQuestions = readmeData => {
     return inquirer
     .prompt([
         {
@@ -39,11 +39,14 @@ const promptQuestions = () => {
             name:'languages',
             message:'What did you use to build this project with?(Check all that apply)',
             choices:['Javascript', 'html', 'css', 'es6', 'jquery', 'bootstrap', 'node']
-        },
-
-
-
+        }
     ]);
+    if(!readmeData.questions) {
+        readmeData.questions =[];
+    }
+    .then(readmeData => {
+        readmeData.questions.push(readmeData);
+    })
 };
     
 promptQuestions().then(answers=> console.log(answers));
