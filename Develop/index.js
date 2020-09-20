@@ -6,7 +6,7 @@ const generatemarkdown = require('./utils/generateMarkdown');
 const questions = [
         {
             type: 'input',
-            name:'name',
+            name:'title',
             message:'What is your name of your App?',
        
         },
@@ -80,10 +80,11 @@ function writetoFile(fileName, response) {
 function init() {
    inquirer.prompt(questions).then((response)=>{
     
-    const response = generatemarkdown(response);
+    const object = generatemarkdown(response);
+    console.log(object);
    
 
-    writetoFile("README.md", response);
+    writetoFile("README.md", object);
    })
 
 }
