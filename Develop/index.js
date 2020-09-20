@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
+const generatemarkdown =require('./utils/generateMarkdown');
 
 // array of questions for user
 const promptQuestions = readmeData => {
@@ -97,6 +98,25 @@ const promptQuestions = readmeData => {
                 }
             }
         }
+        {
+            type: 'list',
+            name:'license',
+            message:'What license are you using?)',
+            choices:[
+                'Mit License', 
+                'GVL GPL License', 
+                'Apache License', 
+                'No License'
+            ]
+            validate:languagesCheckbox =>{
+                if(languagesCheckbox){
+                    return true;
+                }else{
+                    console.log('Please check the languages!');
+                    return false;
+                }
+            }
+        }
     ]);
     if(!readmeData.questions) {
         readmeData.questions =[];
@@ -115,11 +135,19 @@ function writeToFile(fileName, data) {
         if(err) {
             throw err;
         }
-    };)
+        console.log("Readme was created");
+    });
 }
 
 // function to initialize program
 function init() {
+   inquirer.prompt(questions).then((answers)=>{
+    
+    const response = generatemarkdown(answers);
+    console.log(answers);
+
+    writetoFile("README.md", response);
+   })
 
 }
 
