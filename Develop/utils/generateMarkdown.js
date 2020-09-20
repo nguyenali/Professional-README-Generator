@@ -37,9 +37,7 @@ ${response.contributors}
 ${response.languages}
 
 ##License
-${resposne.license}
-
-
+${response.license}
 
 `;
 }
