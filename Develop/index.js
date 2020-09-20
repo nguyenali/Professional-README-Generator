@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const fs = require('fs');
 
 // array of questions for user
 const promptQuestions = readmeData => {
@@ -110,6 +111,11 @@ promptQuestions().then(answers=> console.log(answers));
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName,data, err =>{
+        if(err) {
+            throw err;
+        }
+    };)
 }
 
 // function to initialize program
