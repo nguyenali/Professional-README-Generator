@@ -8,7 +8,7 @@ function generateMarkdown(response) {
 - [Description](#description)
 - [Install](#install)
 - [Usage](#usage)
-- [Link](#link)
+- [Deployment](#Deployment)
 - [Contributors](#contributors)
 - [Languages](#languages)
 - [Deployment](#deployment)
