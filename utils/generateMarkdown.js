@@ -6,7 +6,7 @@ function generateMarkdown(response) {
 ## Table of Contents
 
 - [Description](#description)
-- [Installation](#installation)
+- [Install](#install)
 - [Usage](#usage)
 - [Link](#link)
 - [Contributors](#contributors)
@@ -21,9 +21,9 @@ function generateMarkdown(response) {
 
 ${response.description}
 
-## Installation:
+## Install:
 
-${response.installation}
+${response.install}
 
 ## Usage:
 ${response.usage}
