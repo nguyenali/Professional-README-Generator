@@ -11,13 +11,14 @@ function generateMarkdown(response) {
 - [Link](#link)
 - [Contributors](#contributors)
 - [Languages](#languages)
-- [License](#license)
+- [Deployment](#deployment)
 - [Questions](#questions)
 
 
 
 ## Description:
 ![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
+
 ${response.description}
 
 ## Installation:
@@ -27,8 +28,8 @@ ${response.installation}
 ## Usage:
 ${response.usage}
 
-## Link:
-${response.link}
+## Deployment:
+${response.deployment}
 
 ## Contributors
 ${response.contributors}

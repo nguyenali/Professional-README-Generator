@@ -30,8 +30,8 @@ const questions = [
         }, 
         {
             type:'input',
-            name:'link',
-            message:'Enter the Github link to your App (required)'
+            name:'deployment',
+            message:'Provide instructions on how to deploy you App'
           
         }, 
         {
@@ -44,7 +44,7 @@ const questions = [
             type: 'checkbox',
             name:'languages',
             message:'What did you use to build this project with?(Check all that apply)',
-            choices:['Javascript', 'html', 'css', 'es6', 'jquery', 'bootstrap', 'node']
+            choices:['Javascript', 'html', 'css', 'es6', 'jquery', 'javascript', 'bootstrap', 'node']
             
         },
         {
