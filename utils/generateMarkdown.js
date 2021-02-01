@@ -17,7 +17,7 @@ function generateMarkdown(response) {
 
 
 ## Description:
-![License](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
+![${response.license}](https://img.shields.io/badge/License-${response.license}-blue.svg "License Badge")
 
 ${response.description}
 
@@ -40,7 +40,7 @@ ${response.languages}
 ## License:
   To learn more about the License, click on the link below.
 
--[License](https://opensource.org/licenses/${response.license})
+-[${response.license}](https://opensource.org/licenses/${response.license})
 
 ## Questions:
   For questions about the generator or to see other applications

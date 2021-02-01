@@ -1,29 +1,52 @@
-# CampCafe
 
-## Purpose:
+# a
 
-A generator using Node.js to create professional READme document.
+## Table of Contents
+
+- [Description](#description)
+- [Install](#install)
+- [Usage](#usage)
+- [Deployment](#Deployment)
+- [Contributors](#contributors)
+- [Languages](#languages)
+- [Deployment](#deployment)
+- [Questions](#questions)
 
 
-## Developers:
-* Ali Nguyen    https://github.com/nguyenali
 
-## Technology and Applications used:
-* node.js
-* Json
+## Description:
+![Mit License](https://img.shields.io/badge/License-Mit License-blue.svg "License Badge")
+
+
 
 ## Install:
 
-Clone this github repository. Go to the terminal. Change to the directory that
-contains the package.json file and run "npm install" to install all of the
-dependencies if needed.
+a
 
+## Usage:
+a
 
-## Deployment Instruction:
-Run the generator from your terminal. Change into the directory containin the cloned files,
-run "node.index.js" in your terminal, where you will be prompted to answer the questions
-that will used to generate your README.md file.
+## Deployment:
+a
 
-## For additional questions please contact me at my email at:
+## Contributors
+a
 
-huy31996@hotmail.com
+## Languages:
+Javascript
+
+## License:
+  To learn more about the License, click on the link below.
+
+-[Mit License](https://opensource.org/licenses/Mit License)
+
+## Questions:
+  For questions about the generator or to see other applications
+  I have contributed to, please go to my Github page at the
+  link:
+
+-[GitHub Profile](https:/github.com/a)
+
+For additional questions please contact me at my email at:
+
+a
